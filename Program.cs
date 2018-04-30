@@ -14,6 +14,7 @@ namespace HelloWorld
             }
 
             TopicVersion();
+            DevVersion();
         }
 
         static int LetsGo(int a, int b)
@@ -24,6 +25,11 @@ namespace HelloWorld
         static void TopicVersion()
         {
             System.Console.WriteLine("whoowhoo");
+        }
+
+        static void DevVersion()
+        {
+            System.Console.WriteLine("Hola");
         }
     }
 }
